@@ -73,13 +73,6 @@ module CourseBlockHelper
         audience: data_t_suffix('script.name', id, 'description_audience')
       },
 
-      # # Added by Lane
-      # Script::COURSEA_2019_NAME => {
-      #     title: 'title1',
-      #     body: 'body1',
-      #     audience: 'audience1'
-      # },
-
       Script::COURSEA_NAME => {
         title: data_t_suffix('script.name', id, 'title'),
         body: data_t_suffix('script.name', id, 'description_short'),
@@ -125,7 +118,7 @@ module CourseBlockHelper
         teacher_guide: CDO.code_org_url("/hourofcode/flappy")
       },
       Script::FROZEN_NAME => {
-        url: script_reset_url(id),
+        url: CDO.studio_url("#{script_reset_url(id).sub('http://localhost-studio.code.org/', '')}"),
         body: data_t_suffix('script.name', id, 'description_short'),
         teacher_guide: CDO.code_org_url("/hourofcode/frozen")
       },
@@ -134,7 +127,7 @@ module CourseBlockHelper
         teacher_guide: "https://curriculum.code.org/hoc/2016/2/"
       },
       Script::HOC_NAME => {
-        url: script_reset_url(id),
+        url: CDO.studio_url("#{script_reset_url(id).sub('http://localhost-studio.code.org/', '')}"),
         title: I18n.t("upsell.hoc.title"),
         body: I18n.t("upsell.hoc.body"),
         teacher_guide: CDO.code_org_url("/hourofcode/hourofcode")
@@ -147,19 +140,19 @@ module CourseBlockHelper
       },
       Script::MINECRAFT_AQUATIC_NAME => {
         body: data_t_suffix('script.name', id, 'description_short'),
-        url: CDO.code_org_url('/api/hour/begin/mc')
+        url: CDO.code_org_url('/minecraft')
       },
       Script::MINECRAFT_DESIGNER_NAME => {
         body: data_t_suffix('script.name', id, 'description_short'),
-        url: CDO.code_org_url('/api/hour/begin/mc')
+        url: CDO.code_org_url('/minecraft')
       },
       Script::MINECRAFT_HERO_NAME => {
         body: data_t_suffix('script.name', id, 'description_short'),
-        url: CDO.code_org_url('/api/hour/begin/mc')
+        url: CDO.code_org_url('/minecraft')
       },
       Script::MINECRAFT_NAME => {
         body: data_t_suffix('script.name', id, 'description_short'),
-        url: CDO.code_org_url('/api/hour/begin/mc')
+        url: CDO.code_org_url('/minecraft')
       },
       Script::PLAYLAB_NAME => {
         url: CDO.code_org_url('/playlab'),
