@@ -56,6 +56,7 @@ class HomeController < ApplicationController
         redirect_to '/home'
       end
     else
+      set_locale_cookie('zh-CN')
       redirect_to '/courses'
     end
   end

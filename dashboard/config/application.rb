@@ -86,10 +86,10 @@ module Dashboard
     # By default, config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     config.i18n.backend = CDO.i18n_backend
-    config.i18n.enforce_available_locales = true
-    config.i18n.available_locales = ['en-US']
-    config.i18n.fallbacks[:defaults] = ['en-US']
-    config.i18n.default_locale = 'en-US'
+    config.i18n.enforce_available_locales = true # Notice: This should set to true
+    config.i18n.available_locales = ['zh-CN']
+    config.i18n.fallbacks[:defaults] = ['zh-CN']
+    config.i18n.default_locale = 'zh-CN'
     LOCALES = YAML.load_file("#{Rails.root}/config/locales.yml")
     LOCALES.each do |locale, data|
       next unless data.is_a? Hash
