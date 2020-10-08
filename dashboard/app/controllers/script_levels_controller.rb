@@ -76,6 +76,11 @@ class ScriptLevelsController < ApplicationController
 
   use_database_pool show: :persistent
   def show
+    # Added by Lane
+    unless current_user
+      redirect_to new_user_session_path
+    end
+
     @current_user = current_user && User.includes(:teachers).where(id: current_user.id).first
     authorize! :read, ScriptLevel
     @script = ScriptLevelsController.get_script(request)
