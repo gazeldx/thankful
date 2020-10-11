@@ -35,12 +35,12 @@ zh-CN:
         gender: 性别
         edit_header: 编辑用户信息
         finish_sign_up_header: 完成创建帐户
-        finish_sign_up_subheader: 填写以下信息为 <strong>%{email}</strong> 创建 Code.org 帐户。
-        finish_sign_up_subheader_markdown: 填写以下信息为 **%{email}** 创建 Code.org 帐户。
+        finish_sign_up_subheader: 填写以下信息为 <strong>%{email}</strong> 创建 挖土机®少儿编程 帐户。
+        finish_sign_up_subheader_markdown: 填写以下信息为 **%{email}** 创建 挖土机®少儿编程 帐户。
         finish_sign_up_subheader_provider: 填写信息，来使用 <strong>%{provider}</strong> 的
-          <strong>%{email}</strong> 创建 Code.org 账户。
+          <strong>%{email}</strong> 创建 挖土机®少儿编程 账户。
         finish_sign_up_subheader_provider_markdown: 填写信息，来使用 **%{provider}** 的 **%{email}**
-          创建 Code.org 账户。
+          创建 挖土机®少儿编程 账户。
         reset_password_token: 重置密码链接
         error:
           future: 不能选择将来的时间
@@ -68,7 +68,7 @@ zh-CN:
   add_hint_form:
     placeholder: 请在这里输入您的密码提示
     submit: 添加密码提示
-  appname: Code.org
+  appname: 挖土机®少儿编程
   stage: 阶段
   stage_number: 课程 %{number}
   puzzle: 关卡
@@ -93,7 +93,7 @@ zh-CN:
     continue_with: 用%{provider}继续
     sign_in_with: 用%{provider}登录
     signed_in: 登录成功！
-    signed_out_markdown: "###，您已注销 [Code.org](%{url})"
+    signed_out_markdown: "###，您已注销 [挖土机®少儿编程](%{url})"
     sign_out_of_markdown: "#### 当前使用了 %{provider} 登录，[单击这里](%{url}) 来注销 %{provider}。"
     already_signedup: 已经注册了吗？
     notyet_signedup: 还未注册吗？
@@ -110,12 +110,12 @@ zh-CN:
     need_confirmation: 没有收到确认的说明吗？
     need_unlock: 未收到解锁指令吗？
     not_linked: 对不起，你的编程一小时账户没有连接到 %{provider}。需要通过输入密码来登录。
-    use_clever: 对不起，你的 Code.org 帐号无法连接到%{provider}。请尝试通过 Clever 登录。
-    unable_to_connect_provider: 无法将您的 Code.org 帐户连接到 %{provider}。请重试。
-    already_in_use: 你的 %{provider} 已连接到另一个 Code.org 帐户。
-    already_linked: 你的 %{provider} 已连接到了 Code.org 帐户。
+    use_clever: 对不起，你的 挖土机®少儿编程 帐号无法连接到%{provider}。请尝试通过 Clever 登录。
+    unable_to_connect_provider: 无法将您的 挖土机®少儿编程 帐户连接到 %{provider}。请重试。
+    already_in_use: 你的 %{provider} 已连接到另一个 挖土机®少儿编程 帐户。
+    already_linked: 你的 %{provider} 已连接到了 挖土机®少儿编程 帐户。
     existing_account:
-      account_exists: 恭喜！已经有了 Code.org 的账户 %{email}。
+      account_exists: 恭喜！已经有了 挖土机®少儿编程 的账户 %{email}。
       sign_in: 请登录，我们将连接 %{provider} 的个人资料。
       sign_up: 不是你的邮箱？ 想用其他邮箱创建新帐户？ 如果选择创建新帐户，我们仍将链接 %{provider} 的个人资料。
   signup_form:
@@ -132,7 +132,7 @@ zh-CN:
       href="%{studio_url}"> 你还可以继续浏览各个阶段和谜题</a> 而无需创建一个帐户。
     hoc_already_signed_up_content_post_hoc_markdown: 感谢主办编程一小时！要登录到代码工作室，需要设置帐户的密码。这样能保存进度并管理教室。还可以将课程分配给学生，并跟踪进度。也可以不创建帐户，[继续浏览各个阶段和谜题](%{studio_url})。
     teacher_educator_guide: 请参阅教师指南
-    title: 注册 Code.org
+    title: 注册 挖土机®少儿编程
     school_name: 学校名称（可选）
     school_address: 学校地址（可选）
     address_placeholder: 地址、省市、邮编
@@ -149,11 +149,11 @@ zh-CN:
     valid_password: 有效的密码 ！
     invalid_password: 密码必须至少为 6 个字符
     mismatch_password: 您输入的两个密码不匹配
-    student_consent: 我确认我的父母或法定监护人同意我使用 Code.org 的服务。
+    student_consent: 我确认我的父母或法定监护人同意我使用 挖土机®少儿编程 的服务。
     agree_us_website: 我同意使用美国的网站。
     my_data_to_us: 我使用本网站产生的数据可能会被传输至美国并在美国存储或处理。
-    student_terms_markdown: 注意：电子邮箱不会被存储，并用作与学生取得联系。Code.org 不会向学生发送与密码恢复无关的任何邮件。更多信息请查阅
-      [隐私政策](http://code.org/privacy)。
+    student_terms_markdown: 注意：电子邮箱不会被存储，并用作与学生取得联系。挖土机®少儿编程 不会向学生发送与密码恢复无关的任何邮件。更多信息请查阅
+      [隐私政策](http://since2018.vip/privacy)。
     additional_information: 我们需要一些额外的信息来继续为你注册.
     user_type_button: 更新帐户类型
     user_type_label: 帐户类型
@@ -216,14 +216,14 @@ zh-CN:
       submit: 提交
     reset_errors:
       captcha_required: 请填写验证码以重置您的密码。
-      invalid_email: 您也许用了无效的电子邮件地址来登录。请联系support@code.org 来获得恢复密码的链接。
+      invalid_email: 您也许用了无效的电子邮件地址来登录。请联系support@since2018.vip 来获得恢复密码的链接。
     change_form:
       title: 更换密码
       new_password: 新密码
       confirm_password: 确认新密码
       submit: 更改我的密码
   welcome_email:
-    subject: 加入我 (在code.org上) 的班级
+    subject: 加入我 (在since2018.vip上) 的班级
     body: |
       请点击下面的链接来报名参加计算机科学教程（我将成为你的"老师"）：
 
@@ -233,10 +233,10 @@ zh-CN:
 
       %{name}
   parent_mailer:
-    student_associated_subject: Code.org 的登录信息
+    student_associated_subject: 挖土机®少儿编程 的登录信息
   teacher_mailer:
-    new_teacher_subject: 欢迎来到 Code.org ！
-    delete_teacher_subject: Code.org 通知：你的帐户已被删除
+    new_teacher_subject: 欢迎来到 挖土机®少儿编程 ！
+    delete_teacher_subject: 挖土机®少儿编程 通知：你的帐户已被删除
   section:
     your_section:
       one: 你的小组：
@@ -267,7 +267,7 @@ zh-CN:
       provider_managed_section: 这个小组是通过其它网站进行管理的，而且不能加入。请询问你的老师通过 %{provider} 将你加入，并重新同步该小组。
     mail:
       student_disassociated:
-        subject: Code.org 提醒：%{student_name} 已不再是您的学生。
+        subject: 挖土机®少儿编程 提醒：%{student_name} 已不再是您的学生。
   reports:
     error:
       access_denied: 您没有权限访问此人的信息。
@@ -289,7 +289,7 @@ zh-CN:
     registrations:
       user:
         user_type_change_email_mismatch: 你输入的电子邮件地址与这个账户的不符。
-        personal_login_created_email: 您已成功创建了个人账号。您现在可以使用电子邮箱和密码登录Code.org
+        personal_login_created_email: 您已成功创建了个人账号。您现在可以使用电子邮箱和密码登录挖土机®少儿编程
         personal_login_created_username: 您已成功创建了个人账号。您现在可以使用用户名(%{username}) 和密码登录。
   nav:
     header:
@@ -317,7 +317,7 @@ zh-CN:
       educate_high: 高中
       educate_hoc: 编程一小时
       educate_partner: 与我们合作
-      educate_beyond: Code.org 意外的内容
+      educate_beyond: 挖土机®少儿编程 意外的内容
       educate_inspire: 鼓舞学生
       educate_community: 在线社区
       educate_tools: 工具和视频
@@ -442,16 +442,16 @@ zh-CN:
     create_personal_login_under_13_info: 如果您想在学年结束后依然保留您的账号，请您的父母/监护人帮您在下面创建您自己的账号。
     create_personal_login_under_13_username: 用户名（请不要使用您的真名！）
     create_personal_login_under_13_parent_email: 父母/监护人电子邮箱地址
-    create_personal_login_info: 如果想将你的 Code.org 账户在学年完成后也还保留，你需要在下面创建自己的账户。
+    create_personal_login_info: 如果想将你的 挖土机®少儿编程 账户在学年完成后也还保留，你需要在下面创建自己的账户。
     create_personal_login_link_account: 也可以在"管理连接的账号"部分下连接到个人账户。
-    create_personal_login_terms: 通过创建个人账户，我同意接受 Code.org 的<a href='%{terms_of_service_url}',
-      target='_blank'>服务条款</a>。我确认我的父母或法定监护人已经允许我在没有老师的情况下使用 Code.org 的服务。
-    create_personal_login_terms_markdown: 通过创建个人账户，我同意接受 Code.org 的[服务条款](%{terms_of_service_url})。我确认我的父母或法定监护人已经允许我在没有老师的情况下使用
-      Code.org 的服务。
-    create_personal_login_email_note: 注意：电子邮箱不会用来与学生进行联系。除了密码恢复的邮件，学生永远不会收到从 Code.org
+    create_personal_login_terms: 通过创建个人账户，我同意接受 挖土机®少儿编程 的<a href='%{terms_of_service_url}',
+      target='_blank'>服务条款</a>。我确认我的父母或法定监护人已经允许我在没有老师的情况下使用 挖土机®少儿编程 的服务。
+    create_personal_login_terms_markdown: 通过创建个人账户，我同意接受 挖土机®少儿编程 的[服务条款](%{terms_of_service_url})。我确认我的父母或法定监护人已经允许我在没有老师的情况下使用
+      挖土机®少儿编程 的服务。
+    create_personal_login_email_note: 注意：电子邮箱不会用来与学生进行联系。除了密码恢复的邮件，学生永远不会收到从 挖土机®少儿编程
       寄来的任何邮件。更多信息请查看<a href='%{privacy_policy_url}', target='_blank'>隐私政策</a>。
     create_personal_login_email_note_markdown: 注意：电子邮箱不会用来与学生进行联系。除了密码恢复的邮件，学生永远不会收到从
-      Code.org 寄来的任何邮件。更多信息请查看[隐私政策](%{privacy_policy_url})。
+      挖土机®少儿编程 寄来的任何邮件。更多信息请查看[隐私政策](%{privacy_policy_url})。
     enter_new_login_info: 输入新的登录信息
     confirm_secret_words: 输入你当前的秘密单词来确认你的身份
     parent_email_label: 家长/监护人电子邮件 (可选)
@@ -491,7 +491,7 @@ zh-CN:
     prize_info: 奖品为参与 （仅限美国公立学校教师）： 最高在课堂奖励 1000 元。
     tryfirst: 或者你也可以先试一试，过会儿再注册：
     trynow: 现在就试试
-    add_hint_help: 请帮助我们将智能提示添加到 Code.org 教程
+    add_hint_help: 请帮助我们将智能提示添加到 挖土机®少儿编程 教程
     20hour_overview: 这个20 小时课程介绍核心计算机科学和编程的概念。课程为 K-8 年级设计，用于室内教学，但是所有年龄段学习起来都很有趣。
     test_videos_help: 在你的学校测试我们新的视频。
     try_beta_courses: 新增功能！尝试我们为 K-5 学生准备的 beta 版课程
@@ -528,8 +528,8 @@ zh-CN:
     student: 学生
     teacher: 老师
   footer:
-    thank_you: 我们感谢<a href="https://code.org/about/donors">捐助者</a>、<a href="https://code.org/about/partners">合作伙伴</a>、<a
-      href="https://code.org/about/team">扩展团队</a>、视频演员、<a href="https://code.org/about/advisors">教育顾问</a>在创建代码工作室中给予的支持。
+    thank_you: 我们感谢<a href="https://since2018.vip/about/donors">捐助者</a>、<a href="https://since2018.vip/about/partners">合作伙伴</a>、<a
+      href="https://since2018.vip/about/team">扩展团队</a>、视频演员、<a href="https://since2018.vip/about/advisors">教育顾问</a>在创建代码工作室中给予的支持。
     help_from_html: 我们要特别感谢来自亚马逊、谷歌和微软的工程师帮助创建本教程。
     help_from_html_old: 来自亚马逊、谷歌和微软的工程师们帮助创建了本教程。
     art_from_html: 我的世界&#8482; &copy; %{current_year} 微软，保留所有权利。<br />星球大战&#8482;
@@ -542,17 +542,17 @@ zh-CN:
       &copy; %{current_year} 20世纪福克斯，保留所有权利。愤怒的小鸟&#8482; &copy; 2009-%{current_year}
       维奥公司，保留所有权利。植物大战僵尸&#8482; &copy; %{current_year} 电子艺界，保留所有权利。阿甘妙世界是TM，&copy;
       %{current_year} 卡通网络。
-    code_from_html: Code.org 使用 p5.play 游戏资源库，根据 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html">GNU
+    code_from_html: 挖土机®少儿编程 使用 p5.play 游戏资源库，根据 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html">GNU
       LGPL 2.1</a> 之许可。
     powered_by_aws: 由亚马逊网络服务
-    trademark: "&copy; Code.org, %{current_year}. Code.org&reg;, CODE Logo 和 Hour
-      of Code&reg; 是 Code.org 的注册商标。"
+    trademark: "&copy; 挖土机®少儿编程, %{current_year}. 挖土机®少儿编程&reg;, CODE Logo 和 Hour
+      of Code&reg; 是 挖土机®少儿编程 的注册商标。"
     copyright: 版权
     more: 更多
     feedback: 提供反馈
     translate: 愿意参与内容翻译
     support: 支持
-    support_url: http://support.code.org/
+    support_url: http://support.since2018.vip/
     tos_short: 条款
     tos: 使用条款
     privacy: 隐私政策
@@ -604,7 +604,7 @@ zh-CN:
     flappy_og_title: 看看我的 Flappy 游戏
     studio_og_title: 看看我的游戏实验室的应用程序
     check_out_what_i_made: 看看我做的
-    og_description: 我用 Code.org 自己写的代码
+    og_description: 我用 挖土机®少儿编程 自己写的代码
     phone_number_not_allowed: 这好像有一个电话号码，试试改变文本去掉它。
     address_not_allowed: 这好像有一个地址，试试改变文本去掉它。
     email_not_allowed: 这好像有一个电子邮件，试试改变文本去掉它。
@@ -715,7 +715,7 @@ zh-CN:
     prerelease_tutorial: 本教程为 **beta** 版，将根据反馈信息对其进行改进和修订。
     report_bug: 报告错误
     support: 获取帮助
-    support_url: "//support.code.org"
+    support_url: "//support.since2018.vip"
     help_resources: 帮助和资源
     help_support: 帮助与支持
     documentation: 使用文档
@@ -785,7 +785,7 @@ zh-CN:
     age: 你的年龄
     header: 帐户信息更新
     warning: 我们正在不断完善现有体验，以提供更强的隐私保护。 为此，需要用户在此处输入年龄。
-    disclaimer: Code.org 永远不会把这信息租，或买给第三方。
+    disclaimer: 挖土机®少儿编程 永远不会把这信息租，或买给第三方。
     sign_out_markdown: 如果不愿意提供年龄信息，可以[退出](%{url})。
   terms_interstitial:
     title: 更新的服务条款和隐私政策
@@ -799,7 +799,7 @@ zh-CN:
     accept_label: 我同意更新的 <a href="%{tos_url}"target="_blank"> 服务条款</a> 和 <a href="%{privacy_url}"target="_blank">
       隐私政策</a>
     accept_label_markdown: 我同意更新的[服务条款](%{tos_url})和[隐私政策](%{privacy_url})。
-    accept_tos: 报名 Code.org，即表示同意我们的 [服务条款](%{tos_url}) 和 [隐私策略](%{privacy_url})。
+    accept_tos: 报名 挖土机®少儿编程，即表示同意我们的 [服务条款](%{tos_url}) 和 [隐私策略](%{privacy_url})。
     accept: 同意
     print: 打印
     reminder_desc: 我们更新了我们的 <a href="%{tos_url}"target="_blank"> 服务条款</a> 和 <a href="%{privacy_url}"target="_blank">
@@ -826,9 +826,9 @@ zh-CN:
       opt_out: 不愿回答
     submit: 提交
     decline: 关闭
-  zendesk_too_young_message: 对不起，年轻的用户不能登录到支持站点。你可以不登录来浏览 <a href="http://support.code.org">
-    support.code.org</a> 或让你的父母或老师来联系我们。
-  zendesk_too_young_message_markdown: 对不起，年轻用户不能登录到支持站点。可以不登录来浏览 [support.code.org](http://support.code.org)
+  zendesk_too_young_message: 对不起，年轻的用户不能登录到支持站点。你可以不登录来浏览 <a href="http://support.since2018.vip">
+    support.since2018.vip</a> 或让你的父母或老师来联系我们。
+  zendesk_too_young_message_markdown: 对不起，年轻用户不能登录到支持站点。可以不登录来浏览 [support.since2018.vip](http://support.since2018.vip)
     或让你的父母或老师联系我们。
   progress:
     not_started: 未开始
@@ -868,11 +868,11 @@ zh-CN:
     not_saved: 没有保存
     view_all: 查看我的项目
     edit_project: 编辑工程
-    sharing_disabled: 抱歉，这个项目不能分享。如果这是你或者你学生的项目，请<a href='https://studio.code.org/users/sign_in'>登录</a>到你的账号查看这个项目。
+    sharing_disabled: 抱歉，这个项目不能分享。如果这是你或者你学生的项目，请<a href='https://studio.since2018.vip/users/sign_in'>登录</a>到你的账号查看这个项目。
     abuse:
-      tos: 此工程因违反了 Code.org 的<a href='http://code.org/tos'>服务条款</a> ，不能被共享。
+      tos: 此工程因违反了 挖土机®少儿编程 的<a href='http://since2018.vip/tos'>服务条款</a> ，不能被共享。
       policy_violation: 这个项目包含了不能和他人分享的数据。请联系应用程序的主人以修复他们的应用内容。
-      contact_us: 如果你认为有错误，请<a href='https://code.org/contact'>联系我们</a>。
+      contact_us: 如果你认为有错误，请<a href='https://since2018.vip/contact'>联系我们</a>。
       go_to_code_studio: 转到代码工作室
       report_abuse_form:
         intro: 如果你遇到了冒犯性的内容、威胁、网络欺凌、骚扰或通过代码工作室编写的应用程序实例侵犯了你的版权，请填写下面的表格。我们将非常认真对待你的报告，据此调查并采取适当的行动。
@@ -991,8 +991,8 @@ zh-CN:
     k5_diving_deeper: 深入学习：课程 E 和 F
   external_links:
     disclaimer: 免责声明
-    leaving_domain: 你现在正在离开 Code.org，访问一个不由我们创建的站点。
-    disclaimer_text: 这个站点可能包含与 Code.org 不同的隐私策略。我们选择了这些第三方资源，因为我们认为他们对你有帮助。我们并不直接对该网站的内容负责，如果你发现了让你感到反感的内容，或这个链接指向的站点已不再可用，请<a
+    leaving_domain: 你现在正在离开 挖土机®少儿编程，访问一个不由我们创建的站点。
+    disclaimer_text: 这个站点可能包含与 挖土机®少儿编程 不同的隐私策略。我们选择了这些第三方资源，因为我们认为他们对你有帮助。我们并不直接对该网站的内容负责，如果你发现了让你感到反感的内容，或这个链接指向的站点已不再可用，请<a
       href='%{support_url}'>联系支持部门</a>。
   hoc_download:
     title: "《编程一小时》下载"
@@ -1053,9 +1053,9 @@ zh-CN:
   hidden_stage: 你的老师没有预料到你来到这里。请询问你的老师你应该上什么课。
   hidden_script: 你的老师不期待你来这里。请询问你的老师应该上哪个单元。
   no_course_access_student: 无权访问此课程。请问问老师，应该上什么课程。
-  no_course_access_teacher: 不能访问此课程。如果确定应该能访问次课程，请写信给 support@code.org，以便能修复此情况。
+  no_course_access_teacher: 不能访问此课程。如果确定应该能访问次课程，请写信给 support@since2018.vip，以便能修复此情况。
   no_script_access_student: 无权访问此单元。请询问教师，应该访问什么单元。
-  no_script_access_teacher: 你不能进入这个单元。如果你认为可以访问这个单元，请写信给 support@code.org，以便我们可以解决这种情况。
+  no_script_access_teacher: 你不能进入这个单元。如果你认为可以访问这个单元，请写信给 support@since2018.vip，以便我们可以解决这种情况。
   return_unit_overview: 转到单元概述
   return_course_overview: 转到课程概述
   view_all_units: 查看所有单元
@@ -1078,10 +1078,10 @@ zh-CN:
       workshop_organizer: 工作室组织者
       workshop_facilitator: 工作室主持人
       workshop_course: 工作室课程
-      email_opt_in: 我们是否能发给你关于 Code.org 国际项目，课程更新或其它计算机科学新闻的邮件？
-      legal_opt_in: 提交此表单即表示您同意允许 Code.org 与您的所在国家、所在学区和主持人的 Code.org 国际合作伙伴共享有关您如何使用
-        Code.org 和专业学习资源的信息。我们将分享您的联系信息， 您正在使用哪些课程/组件以及如何与这些合作伙伴聚合有关您的数据。这包括你的班级的学生数量、你的教室的人员数据以及您的学校和地区的名称。我们不会与我们的合作伙伴分享关于个别学生的任何信息：所有学生的信息将不会被识别和聚合。我们的国际合作伙伴和主持人在合同上有义务以和
-        Code.org 相同的保密级别对待这一信息。
+      email_opt_in: 我们是否能发给你关于 挖土机®少儿编程 国际项目，课程更新或其它计算机科学新闻的邮件？
+      legal_opt_in: 提交此表单即表示您同意允许 挖土机®少儿编程 与您的所在国家、所在学区和主持人的 挖土机®少儿编程 国际合作伙伴共享有关您如何使用
+        挖土机®少儿编程 和专业学习资源的信息。我们将分享您的联系信息， 您正在使用哪些课程/组件以及如何与这些合作伙伴聚合有关您的数据。这包括你的班级的学生数量、你的教室的人员数据以及您的学校和地区的名称。我们不会与我们的合作伙伴分享关于个别学生的任何信息：所有学生的信息将不会被识别和聚合。我们的国际合作伙伴和主持人在合同上有义务以和
+        挖土机®少儿编程 相同的保密级别对待这一信息。
     form_entries:
       gender:
         male: 男性
@@ -1145,22 +1145,22 @@ zh-CN:
         opt_in_no: 不
     international_opt_in:
       title: 工作坊参与者
-      intro: 非常感谢您抽出时间接受 Code.org 的培训课程。没有像您这样的人的帮助，我们让世界各地所有学校的孩子们都能有机会学习计算机科学知识的使命或许永远也不会成功。
-      instructions: 请填写下方的表格，表明 1) 你参加了一个由 Code.org 的国际合作伙伴运作的培训研讨班，并且 2) 你同意我们将你的情况告知我们在你所在国家的国际合作伙伴，以便他们支持你作为计算机科学教师的工作。
-      thanks_markdown: 感谢提交！我们期待着能帮您熟悉 Code.org 的课程和教学工具。如有任何问题和反馈，请及时告知我们，可向 [support@code.org](%{support_email_url})
+      intro: 非常感谢您抽出时间接受 挖土机®少儿编程 的培训课程。没有像您这样的人的帮助，我们让世界各地所有学校的孩子们都能有机会学习计算机科学知识的使命或许永远也不会成功。
+      instructions: 请填写下方的表格，表明 1) 你参加了一个由 挖土机®少儿编程 的国际合作伙伴运作的培训研讨班，并且 2) 你同意我们将你的情况告知我们在你所在国家的国际合作伙伴，以便他们支持你作为计算机科学教师的工作。
+      thanks_markdown: 感谢提交！我们期待着能帮您熟悉 挖土机®少儿编程 的课程和教学工具。如有任何问题和反馈，请及时告知我们，可向 [support@since2018.vip](%{support_email_url})
         发邮件或在[教师论坛](%{teacher_forum_url})发帖！
     logged_out:
       heading: 感谢您对专业学习计划的兴趣！
-      body: 开始前，首先需要登录到 Code.org 帐户。如果希望在启动应用程序之前了解有关该程序的更多信息，请查看 <a href="%{url}">专业学习计划概述</a>。
+      body: 开始前，首先需要登录到 挖土机®少儿编程 帐户。如果希望在启动应用程序之前了解有关该程序的更多信息，请查看 <a href="%{url}">专业学习计划概述</a>。
     not_teacher:
-      body_markdown: 感谢对 Code.org 专业学习项目的兴趣。现在登录的是学生账户，请创建教师账户或转到[用户设置](%{user_settings})将账户升级为教师账户。
+      body_markdown: 感谢对 挖土机®少儿编程 专业学习项目的兴趣。现在登录的是学生账户，请创建教师账户或转到[用户设置](%{user_settings})将账户升级为教师账户。
       more_markdown: 如果在开始申请前希望看到更多信息，点击[专业学习计划概述](%{pl_overview})。
     no_teacher_email:
       body_markdown: 账号还没有填写电子邮件地址。请访问[帐户设置](%{user_registration})，在完成表单前添加电子邮件地址。
   courses_category: 完整课程
   cookie_banner:
     message: 通过继续浏览我们的网站或单击"我同意"，您同意在你的计算机或设备上存储 cookies。
-    more_information: 查看 Code.org 的隐私政策。
+    more_information: 查看 挖土机®少儿编程 的隐私政策。
     accept: 我同意
   gdpr_dialog:
     heading: 你同意使用一个美国的网站吗？
