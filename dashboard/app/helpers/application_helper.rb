@@ -106,7 +106,7 @@ module ApplicationHelper
   end
 
   def code_org_root_path
-    CDO.code_org_url
+    CDO.studio_url("/courses")
   end
 
   def home_url
