@@ -103,9 +103,7 @@ module Cdo
     end
 
     def studio_url(path = '', scheme = '')
-      # site_url('studio.since2018.vip', path, scheme)
-      # site_url('studio.code.org', path, scheme)
-      "//since2018.vip/#{path}"
+      "//since2018.vip/#{path}".sub('vip//', 'vip/')
     end
 
     # Added by Lane
