@@ -63,7 +63,7 @@ class HelpHeader
     else
       entries << {
         title: I18n.t("#{loc_prefix}report_bug"),
-        url: "https://support.code.org/hc/en-us/requests/new",
+        url: "https://support.since2018.vip/hc/en-us/requests/new",
         id: "report-bug",
         target: "_blank"
       }
@@ -71,7 +71,7 @@ class HelpHeader
 
     entries << {
       title: I18n.t("#{loc_prefix}help_support"),
-      url: "https://support.code.org",
+      url: "https://support.since2018.vip",
       id: "support",
       target: "_blank"
     }
