@@ -19,7 +19,7 @@ function z_modify_header_banner(){
     if(z_div3.length>0){
         if(z_div3.html().length != 0 && z_count<300){
             // 1、隐藏登录按钮
-            $(".header_right").hide();
+            // $(".header_right").hide();
             // 2、banner图片，已通过文件替换：shared/images/banners/courses-hero-student.jpg
             $("#header-banner").css("height", "500px");
             // 3、隐藏banner前的文字
