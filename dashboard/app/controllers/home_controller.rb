@@ -53,7 +53,13 @@ class HomeController < ApplicationController
       if should_redirect_to_script_overview?
         redirect_to script_path(current_user.most_recently_assigned_script)
       else
-        redirect_to '/home'
+        set_locale_cookie('zh-CN')
+        if session[:last_scripts_request_url]
+          redirect_to session[:last_scripts_request_url]
+        else
+          redirect_to '/courses'
+        end
+        # redirect_to '/home' # Changed by Lane
       end
     else
       set_locale_cookie('zh-CN')

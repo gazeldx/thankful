@@ -10,6 +10,8 @@ class ScriptsController < ApplicationController
   before_action :set_script_file, only: [:edit, :update]
 
   def show
+    session[:last_scripts_request_url] = request.url
+
     if @script.redirect_to?
       redirect_path = script_path(Script.get_from_cache(@script.redirect_to))
       redirect_query_string = request.query_string.empty? ? '' : "?#{request.query_string}"
