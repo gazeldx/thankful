@@ -30,9 +30,13 @@ class SessionsController < Devise::SessionsController
 
   # DELETE /resource/sign_out
   def destroy
+    last_scripts_request_url = session[:last_scripts_request_url]
+
     redirect_path = after_sign_out_path_for(:user)
 
     sign_out
+
+    session[:last_scripts_request_url] = last_scripts_request_url
 
     yield resource if block_given?
 
