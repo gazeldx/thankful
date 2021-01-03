@@ -76,6 +76,8 @@ class ScriptLevelsController < ApplicationController
 
   use_database_pool show: :persistent
   def show
+    session[:last_scripts_request_url] = request.url
+
     # Added by Lane
     unless current_user
       redirect_to new_user_session_path
