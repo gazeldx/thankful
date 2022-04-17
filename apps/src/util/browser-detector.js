@@ -21,7 +21,7 @@ function isUnsupportedChrome() {
     2
   );
   var unsupported = isChrome && chromeVersion < 33;
-  return unsupported;
+  return false;
 }
 
 // We support Safari 7.0.x +
